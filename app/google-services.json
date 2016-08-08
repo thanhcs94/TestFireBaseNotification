@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004219279615",
+    "firebase_url": "https://lifechange-c45c0.firebaseio.com",
+    "project_id": "lifechange-c45c0",
+    "storage_bucket": "lifechange-c45c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004219279615:android:e4de0a36a09f4e42",
+        "android_client_info": {
+          "package_name": "com.the360lifechange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004219279615-2q4r1b1brhoonbmrairrcct89enu3afl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnVMiH3d3a5Q42D9rOrB2PbbZfYyuhlLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
