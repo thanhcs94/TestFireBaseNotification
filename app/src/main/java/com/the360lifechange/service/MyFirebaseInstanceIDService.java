@@ -8,6 +8,7 @@ import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
+import com.the360lifechange.Pref;
 
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
@@ -19,6 +20,8 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         //Displaying token on logcat
         Log.d(TAG, "Refreshed token: " + refreshedToken);
+        Pref mpPref = new Pref(getApplicationContext());
+        mpPref.setFCM_KEY(refreshedToken);
     }
 
     private void sendRegistrationToServer(String token) {
